@@ -1,0 +1,370 @@
+@import Luna-varuables.sass
+
+
+.container
+	width: 1175px
+	margin: 0 auto
+body, html
+	margin: 0
+	padding: 0
+
+.top
+	height: 850px
+	max-width: 100%
+	background: url(../img/header.png) no-repeat
+	background-size: 100% 100%
+	header
+		position: fixed
+		width: 100%
+		.logo
+			width: 124px
+			height: 33px
+			display: inline-block
+			float: left
+			margin-top: 30px
+			margin-left: 215px
+			img
+				display: block
+		.menu	
+			font-family: "Roboto", "sans-serif"
+			font-size: 18px
+			display: inline-block
+			float: right
+			margin-top: 35px
+			color: $WHITE_COLOR
+			margin-right: 215px
+			img
+				width: 20px
+				height: 16px
+				display: block
+				float: right
+				margin-left: 20px
+	.container
+
+		.top-content
+			font-size: 90px
+			color: $WHITE_COLOR
+			width: 100%
+			text-align: center
+			padding-top: 360px
+			span
+				color: $AQUA_COLOR
+		.scroll
+			margin: 0 auto
+			width: 24px
+			margin-top: 300px
+			img
+				width: 24px
+				height: 13px
+				display: block
+
+.about-us
+	color: $GRAY_COLOR
+	font-family: $ROBO_FONT
+	width: 100%
+	height: 750px
+	.container
+		height: 500px
+		.title, .content
+			display: inline-block
+			text-align: left
+			padding: 100px 0 100px 0
+		.title
+			float: left
+			
+			font-size: 48px
+			font-weight: Light
+			hr
+				display: block
+				border: none
+				background: $PURPLE_COLOR
+				height: 3px
+				width: 80px
+				margin: 40px 0 0 0
+
+		.content
+			width: 55%
+			float: right
+			font-size: 18px
+			// height: 285px
+			overflow: hidden
+
+	.gallery
+		width: 100%
+		height: 250px
+		overflow: hidden
+		ul
+			height: 250px
+			width: 100%
+			padding: 0
+			margin: 0
+			li
+				display: inline-block
+				width: 25%
+				float: left
+				list-style-type: none
+				
+				img
+					margin: 0
+					padding: 0
+					width: 100%
+					height: 250px
+.what-we-do
+	padding: 100px 0
+	.container
+		.title
+			width: 100%
+			text-align: center
+			color: $GRAY_COLOR2
+			font-family: $ROBO_FONT
+			font-size: 48px
+			font-weight: Light
+			hr
+				display: block
+				border: none
+				background: $PURPLE_COLOR
+				height: 3px
+				width: 80px
+				// margin: 40px 0 0 0
+	ul
+		width: 100%
+		margin: 0 auto
+		padding: 50px 0
+		display: flex
+		align-items: center
+		justify-content: space-between
+		li
+			display: inline-block
+			float: left
+			list-style-type: none
+			width: 370px
+			transition: all .5s
+			padding: 45px 0 35px 0
+			&:hover
+				box-shadow: 0px 0px 30px 0px black
+				transform: scale(1.1)
+
+			img
+				display: block
+				margin: 0 auto
+				width: 157px
+				height: 151px
+			.element2
+				width: 202px
+
+			h3
+				color: $GRAY_COLOR2
+				font-style: 18px
+				text-align: center
+				width: 100%
+				display: block
+			p
+				width: 265px
+				margin: 0 auto
+				padding: 0 55px
+				height: 75px
+				text-align: center
+				color: $GRAY_COLOR
+				overflow: hidden
+
+	a
+		display: block
+		color: $AQUA_COLOR
+		text-decoration: none
+		font-family: $ROBO_FONT
+		font-size: 18px
+		margin: 0 auto
+		width: 110px
+		&:hover
+			text-decoration: underline
+
+.portfolio
+	width: 100%
+	height: 700px
+	background: url('../img/portfoliBG.png') no-repeat
+	background-size: 100% 100%
+	.container
+		.content-block
+			width: 50%
+			padding-top: 100px
+			display: inline-block
+			float: left
+			h2
+				font-size: 62px
+				color: $WHITE_COLOR
+				width: 100%
+				text-align: left
+
+				span
+					color: $AQUA_COLOR
+			p
+				width: 100%
+				text-align: left
+				font-size: 18px	
+				color: $WHITE_COLOR
+
+			a
+				display: block
+				font-size: 18px
+				font-weight: bold
+				color: $WHITE_COLOR
+				text-decoration: none
+				padding: 15px 35px
+				background: #4ca9ff
+				border-radius: 15px
+				width: 155px
+				text-align: center
+				border: none
+				box-shadow: 0 54px 70px -5px $AQUA_COLOR
+				margin-top: 70px
+				transition: all 1s
+				&:hover
+					box-shadow: 0 0px 70px -5px $AQUA_COLOR
+
+		.promo-img
+			width: 551px
+			height: 477px
+			background: url('../img/Screens.png') no-repeat
+			background-size: 100% 100%
+			display: inline-block
+			margin: 90px 0 0 30px
+
+		ul
+			width: 100%
+			margin: 0px 0 0 0
+			padding: 0
+			height: 100px
+			li
+				list-style-type: none
+				display: inline-block
+				float: left
+				width: 25%
+				transition: all .5s
+				border-top: 1px solid $GRAY_COLOR
+
+				&:hover
+					border-top: 3px solid $WHITE_COLOR
+					margin-top: -1px
+				h3
+					display: block
+					width: 100%
+					text-align: left
+					color: $GRAY_COLOR
+					font-size: 16px
+
+				h4
+					display: block
+					width: 100%
+					text-align: left
+					color: $WHITE_COLOR
+					font-size: 24px					
+
+
+.references
+	width: 100%
+	height: 550px
+	background: url('../img/references.png') no-repeat
+	background-size: 100% 100%
+	background-position: 0px 55px
+	.container
+		position: relative
+		.references-box
+			position: absolute
+			width: 830px
+			height: 303px
+			
+			margin: 0px auto 0
+			// padding: 55px 0
+			text-align: center
+			top: 150px
+			left: Calc(50% - 415px)
+			box-shadow: 0px 0px 50px 5px #c0c0c0
+			p
+				font-size: 24px
+				color: $GRAY_COLOR2
+				width: 670px
+				margin: 0 auto
+				margin-top: 50px
+				span
+					color: $AQUA_COLOR
+			.author
+				width: 220px
+				height: 65px
+				margin: 50px auto
+				.face, .name, .link
+					display: inline-block
+					font-size: 18px
+				.face
+					background: url('../img/face.png') no-repeat
+					background-size: 100% 100%
+					float: left
+					display: inline-block
+					width: 62px
+					height: 62px
+				
+					
+					
+				.name
+					color: $GRAY_COLOR2
+					margin-top: 10px
+						
+				.link
+					color: $AQUA_COLOR
+
+footer
+	width: 100%
+	height: 351px
+	background: url('../img/footer.png') no-repeat
+	background-size: 100% 100%
+	.container
+		padding-top: 100px
+		p
+			width: 605px
+			height: 45px
+			overflow: hidden
+			font-size: 19px
+			color: $WHITE_COLOR
+			display: inline-block
+		.logo
+			width: 124px
+			height: 33px
+			background: url('../img/logo.png') no-repeat
+			background-size: 100% 100%
+			// margin-top: 100px
+		a
+			display: inline-block
+			font-size: 18px
+			font-weight: bold
+			color: $WHITE_COLOR
+			text-decoration: none
+			padding: 15px 35px
+			background: #4ca9ff
+			border-radius: 50px
+			width: 155px
+			text-align: center
+			border: none
+			box-shadow: 0 54px 70px -5px $AQUA_COLOR
+			transition: all 1s
+			float: right
+		hr
+			width: 100%
+			display: block
+			border: none
+			background: $GRAY_COLOR
+			height: 2px
+			margin-top: 75px
+			
+		.copyright, .design
+			display: inline-block
+			font-size: 14px
+			color: $GRAY_COLOR
+			padding: 10px 0 20px 0
+			span
+				color: $AQUA_COLOR
+
+
+		.copyright
+			float: left
+
+		.design
+			float: right
